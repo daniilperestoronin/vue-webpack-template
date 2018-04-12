@@ -1,0 +1,22 @@
+{
+  "name": "vue-webpack-template",
+  "version": "1.0.0",
+  "description": "vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniilperestoronin/vue-webpack-template.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Daniil Perestoronin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniilperestoronin/vue-webpack-template/issues"
+  },
+  "homepage": "https://github.com/daniilperestoronin/vue-webpack-template#readme"
+}
