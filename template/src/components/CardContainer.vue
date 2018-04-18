@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container class="mt-5" sm="9">
     <b-card-group columns>
         <b-card title="Card title that wraps to a new line"
                 img-src="https://placekitten.com/g/400/450"
