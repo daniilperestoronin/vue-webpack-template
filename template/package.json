@@ -22,8 +22,8 @@
   "homepage": "https://github.com/daniilperestoronin/vue-webpack-template#readme",
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.6",
-    "vue": "^2.5.16",
-    "vue-goodshare": "^0.9.3"
+    "font-awesome": "^4.7.0",
+    "vue": "^2.5.16"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

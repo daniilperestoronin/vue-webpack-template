@@ -1,10 +1,13 @@
 <template>
-<b-container fluid style="height:50px" class="text-light text-center bg-info">
+<b-container fluid style="height:55px" class="text-light text-center bg-info">
     <b-row align-v="start" class="text-center">
         <b-col>About</b-col>
         <b-col>vue-webpack-template<br>© Copyright 2018 Daniil Perestoronin</b-col>
-        <b-col>Contacts
-<vue-goodshare></vue-goodshare>
+        <b-col>Contacts<br>
+            <i class="fa fa-github"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-cc-paypal"></i>
         </b-col>
     </b-row>
 </b-container>
@@ -21,6 +24,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scope>
+.fa {
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1em;
+    text-align: center;
+  }
 </style>
