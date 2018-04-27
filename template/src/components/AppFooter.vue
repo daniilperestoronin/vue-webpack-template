@@ -1,5 +1,5 @@
 <template>
-<b-container fluid style="height:55px" class="text-light text-center bg-info">
+<b-container fluid style="height:55px" class="mt-5 text-light text-center bg-info">
     <b-row align-v="start" class="text-center">
         <b-col>About</b-col>
         <b-col>vue-webpack-template<br>© Copyright 2018 Daniil Perestoronin</b-col>
@@ -14,13 +14,8 @@
 </template>
 
 <script>
-import VueGoodshare from 'vue-goodshare'
-
 export default {
-    name: 'AppFooter',
-    components: {
-        VueGoodshare
-  }
+    name: 'AppFooter'
 }
 </script>
 
