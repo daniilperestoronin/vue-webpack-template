@@ -1,8 +1,14 @@
 <template>
-<b-container fluid style="height:85px" class="mt-5 text-light text-center bg-info">
+<b-container fluid style="height:95px" class="mt-5 text-light text-center bg-info">
     <b-row align-v="start" class="text-center">
         <b-col>
-            About
+            <b-link href=""> Home: </b-link> 
+            <br>
+            <b-link href="">Image</b-link> | <b-link href="">Card's</b-link>  | <b-link href="">Media</b-link> 
+            <br>
+            <b-link href="">Technologies</b-link> 
+            <br>
+            <b-link href="">Webpack</b-link>  | <b-link href="">Vue</b-link>  | <b-link href="">Vue-Bootstrap</b-link> 
         </b-col>
         <b-col>
             <h5> vue-webpack-template</h5>
