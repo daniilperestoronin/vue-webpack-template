@@ -1,26 +1,40 @@
 <template>
-<b-container fluid style="height:95px" class="mt-5 text-light text-center bg-info">
-    <b-row align-v="start" class="text-center">
-        <b-col>
-            <b-link href=""> Home: </b-link> 
-            <br>
-            <b-link href="">Image</b-link> | <b-link href="">Card's</b-link>  | <b-link href="">Media</b-link> 
-            <br>
-            <b-link href="">Technologies</b-link> 
-            <br>
-            <b-link href="">Webpack</b-link>  | <b-link href="">Vue</b-link>  | <b-link href="">Vue-Bootstrap</b-link> 
-        </b-col>
-        <b-col>
-            <h5> vue-webpack-template</h5>
-            <br>© Copyright 2018 Daniil Perestoronin
-        </b-col>
-        <b-col>Contacts<br>
-            <i class="fa fa-github"></i>
-            <i class="fa fa-linkedin"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-cc-paypal"></i>
-        </b-col>
-    </b-row>
+<b-container fluid style="height:145px" class="mt-5 text-light text-center bg-info">
+    <b-container style="height:145px" class="mt-5 text-light text-center bg-info">
+       <b-row align-v="start" class="text-center">
+            <b-col>
+                Home:  
+                <br>
+                <b-link href="">Image</b-link>
+                <br>
+                <b-link href="">Card's</b-link>
+                <br>
+                <b-link href="">Media</b-link> 
+            </b-col>
+            <b-col>
+                Technologies: 
+                <br>
+                <b-link href="">Webpack</b-link>
+                <br>
+                <b-link href="">Vue</b-link>
+                <br>
+                <b-link href="">Vue-Bootstrap</b-link> 
+            </b-col>
+            <b-col>
+                Contacts
+                <br>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-cc-paypal"></i>
+            </b-col>
+        </b-row>
+        <b-row align-v="start" class="text-center">
+            <b-col>
+                <br>vue-webpack-template © Copyright 2018 Daniil Perestoronin
+            </b-col>
+        </b-row>
+    </b-container>
 </b-container>
 </template>
 
