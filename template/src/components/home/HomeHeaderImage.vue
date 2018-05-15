@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'HeaderImage'
+  name: 'HomeHeaderImage'
 };
 </script>
 

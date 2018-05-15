@@ -8,8 +8,8 @@
   <b-collapse is-nav id="nav_collapse">
 
     <b-navbar-nav>
-      <b-nav-item href="#">Home</b-nav-item>
-      <b-nav-item href="#">Technologies</b-nav-item>
+      <b-nav-item href="#/">Home</b-nav-item>
+      <b-nav-item href="#/technologies">Technologies</b-nav-item>
     </b-navbar-nav>
 
     <!-- Right aligned nav items -->
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'NavBar'
+  name: 'AppNavBar'
 };
 </script>
 

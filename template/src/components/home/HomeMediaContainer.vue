@@ -31,7 +31,7 @@
 
 <script>
 export default {
-    name: 'MediaContainer'
+    name: 'HomeMediaContainer'
 };
 </script>
 

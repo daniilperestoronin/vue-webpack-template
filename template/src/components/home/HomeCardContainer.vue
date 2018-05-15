@@ -66,7 +66,7 @@
 
 <script>
 export default {
-    name: 'CardContainer'
+    name: 'HomeCardContainer'
 }
 </script>
 

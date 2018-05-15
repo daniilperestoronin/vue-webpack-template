@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'SubNav'
+  name: 'HomeSubNav'
 };
 </script>
 

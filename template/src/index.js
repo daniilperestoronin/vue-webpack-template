@@ -7,21 +7,21 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'font-awesome/css/font-awesome.css';
 
 import App from './App.vue'
-import CardContainer from './components/CardContainer.vue'
+import AppHome from './components/AppHome.vue'
+import AppTechnologies from './components/AppTechnologies.vue'
 
 Vue.use(BootstrapVue);
+Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes: [
     {
       path: '/',
-      name: 'app',
-      component: App
+      component: AppHome
     },
     {
-      path: '/CardContainer',
-      name: 'CardContainer',
-      component: CardContainer
+      path: '/technologies',
+      component: AppTechnologies
     }
   ]
 })
