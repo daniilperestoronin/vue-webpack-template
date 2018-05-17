@@ -1,11 +1,16 @@
 <template>
-  <div>
-      <h5>Technologies</h5>
-  </div>
+  <technologies-sub-nav/>
 </template>
 
 <script>
+import TechnologiesSubNav from "./technologies/TechnologiesSubNav.vue";
 
+export default {
+  name: "AppTechnologeis",
+  components: {
+    TechnologiesSubNav
+  }
+};
 </script>
 
 <style>
