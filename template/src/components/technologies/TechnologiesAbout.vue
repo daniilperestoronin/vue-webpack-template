@@ -28,7 +28,7 @@
                 </ul>
             <b-btn variant="info" href="#">More info</b-btn>
         </b-jumbotron>
-         <b-jumbotron  bg-variant="light">
+        <b-jumbotron  bg-variant="light">
             <template slot="header">
                 <b-img width="100" height="100" 
                 src="https://bootstrap-vue.js.org/_nuxt/img/icon.f0a8c9e.png" fluid alt="Fluid image" />
@@ -43,6 +43,23 @@
                 Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4
                 components and grid system available for Vue.js 2.4+, complete with extensive and
                 automated WAI-ARIA accessibility markup.
+            </p>
+            <b-btn variant="info" href="#">More info</b-btn>
+        </b-jumbotron>
+                <b-jumbotron  bg-variant="light">
+            <template slot="header">
+                <b-img width="100" height="100" 
+                src="https://cdn-images-1.medium.com/max/1200/1*Wx82vEGrMfW4AdSLodZXgQ.png" fluid alt="Fluid image" />
+                Webpack
+            </template>
+            <template slot="lead">
+                Webpack is a static module bundler for modern JavaScript applications.
+            </template>
+            <hr class="my-4">
+            <p>
+                Webpack is a static module bundler for modern JavaScript applications. When webpack
+                processes your application, it internally builds a dependency graph which maps every
+                module your project needs and generates one or more bundles.
             </p>
             <b-btn variant="info" href="#">More info</b-btn>
         </b-jumbotron>
