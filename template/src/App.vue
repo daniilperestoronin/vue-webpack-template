@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import 'opensans-npm-webfont';
 import AppNavBar from "./components/AppNavBar.vue";
 import AppFooter from "./components/AppFooter.vue";
 
@@ -20,5 +21,7 @@ export default {
 </script>
 
 <style>
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 </style>

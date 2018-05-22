@@ -23,6 +23,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.6",
     "font-awesome": "^4.7.0",
+    "opensans-npm-webfont": "^1.0.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
