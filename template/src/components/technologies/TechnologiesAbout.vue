@@ -46,7 +46,7 @@
             </p>
             <b-btn variant="info" href="#">More info</b-btn>
         </b-jumbotron>
-                <b-jumbotron  bg-variant="light">
+        <b-jumbotron  bg-variant="light">
             <template slot="header">
                 <b-img width="100" height="100" 
                 src="https://cdn-images-1.medium.com/max/1200/1*Wx82vEGrMfW4AdSLodZXgQ.png" fluid alt="Fluid image" />
